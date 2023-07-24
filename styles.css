@@ -1,5 +1,9 @@
 /* general */
 
+html {
+    font-size: 62.5%;
+}
+
 html, body, ul {
     padding: 0;
     margin: 0;
@@ -18,7 +22,7 @@ ul {
 /* side bar */
 
 .sidebar {
-    width: 410px;
+    width: 41rem;
     height: 100%; /* Esses 100% equivale ao total dos 100vh (unidade de medida equivalente ao total da tela [impossibilitanto scrol]) */
     display: inline-block;
     position: relative;
@@ -33,26 +37,26 @@ ul {
 }
 
 .user-photo {
-    width: 40px;
+    width: 4rem;
     border-radius: 50%;
     position: absolute;
-    left: 15px;
-    top: 10px;
+    left: 1.5rem;
+    top: 1rem;
     background-color: #ccc;
 }
 
 .auxicons-toolbar-container {
     float: right;
-    height: 60px;
-    line-height: 60px;
-    padding-right: 20px;
+    height: 6rem;
+    line-height: 6rem;
+    padding-right: 2rem;
 }
 
 .auxicons-toolbar-container i {
     color: #80868A;
-    font-size: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     cursor: pointer;
 }
 
@@ -60,9 +64,9 @@ ul {
 
 .notification-container {
     width: 100%;
-    height: 90px;
-    padding-top: 23px;
-    padding-left: 80px;
+    height: 9rem;
+    padding-top: 2.3rem;
+    padding-left: 8rem;
     background-color: #9DE1FE;
     color: #384C56;
     position: relative;
@@ -70,17 +74,17 @@ ul {
 }
 
 .fas.fa-bell-slash {
-    width: 45px;
-    height: 45px;
+    width: 4.5rem;
+    height: 4.5rem;
     text-align: center;
-    line-height: 45px;
+    line-height: 4.5rem;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #9DE1FE;
     background-color: #F5FCFF;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 2rem;
+    left: 2rem;
 }
 
 .notification-container p {
@@ -88,18 +92,18 @@ ul {
 }
 
 .notification-container .receive-notification {
-    font-size: 15px;
-    margin-bottom: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
 }
 
 .activate-notification {
-    font-size: 13px;
+    font-size: 1.3rem;
 }
 
 /*search-container */
 
 .search-container {
-    height: 50px;
+    height: 5rem;
     width: 100%;
     padding-left: 7.5px;
     padding-top: 7.5px;
@@ -111,16 +115,16 @@ ul {
 
 #contact-search {
     position: absolute;
-    left: 30px;
-    top: 18px;
-    font-size: 14px;
+    left: 3rem;
+    top: 1.8rem;
+    font-size: 1.4rem;
 }
 
 #search {
     border: none;
-    height: 35px;
-    width: 385px;
-    padding-left: 60px;
+    height: 3.5rem;
+    width: 38.5rem;
+    padding-left: 6rem;
     border-radius: 17.5px;
     background-color: #FFF;
     box-sizing: border-box;
@@ -139,15 +143,15 @@ ul {
 
 .contact-box {
     cursor: pointer;
-    height: 72px;
+    height: 7.2rem;
     background-color: #FFF;
-    border-top: 1px solid #F2F2F2;
+    border-top: 0.1rem solid #F2F2F2;
     position: relative;
     box-sizing: border-box;
 }
 
 .contact-box:last-child {
-    border-bottom: 1px solid #F2F2F2;
+    border-bottom: 0.1rem solid #F2F2F2;
 }
 
 .contact-box:hover {
@@ -163,12 +167,12 @@ ul {
 }
 
 .contact-box .user-photo {
-    width: 50px;
+    width: 5rem;
 }
 
 .user-info {
-    margin-left: 80px;
-    padding-top: 10px;
+    margin-left: 8rem;
+    padding-top: 1rem;
     display: inline-block;
 }
 
@@ -177,41 +181,41 @@ ul {
 }
 
 .user-info {
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #000;
-    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
 }
 
 .user-messagepreview {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #454545;
 }
 
 .fa-check-double {
-    margin-right: 5px;
+    margin-right: 0.5rem;
     color: #4FC3F7;
 }
 
 .message-info {
     position: absolute;
-    top: 12px;
-    right: 20px;
+    top: 1.2rem;
+    right: 2rem;
     display: inline-block;
 }
 
 .message-info .message-time {
-    font-size: 12px;
-    margin-bottom: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
     color: #ccc;
 }
 
 .message-pending {
     background-color: #09D261;
     color: #fff;
-    width: 19px;
-    height: 19px;
-    line-height: 19px;
-    font-size: 12px;
+    width: 1.9rem;
+    height: 1.9rem;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
     font-weight: bold;
     border-radius: 50%;
     text-align: center;
@@ -223,8 +227,8 @@ ul {
 .chat-container {
     position: absolute;
     top: 0;
-    left: 410px;
-    width: calc(100% - 410px);
+    left: 41rem;
+    width: calc(100% - 41rem);
     height: 100%;
     background-color: #CCC;
 }
@@ -232,10 +236,10 @@ ul {
 /* chat navbar */
 
 .chat-navbar {
-    height: 60px;
+    height: 6rem;
     background-color: #EEE;
     border-left: 1px solid #DDD;
-    padding-left: 75px;
+    padding-left: 7.5rem;
 }
 
 .chat-navbar p {
@@ -247,24 +251,24 @@ ul {
 }
 
 .contactinfo-container .user-name {
-    font-size: 16px;
-    height: 60px;
-    line-height: 60px;
+    font-size: 1.6rem;
+    height: 6rem;
+    line-height: 6rem;
 }
 
 .chattools-container {
     float: right;
     display: block;
-    height: 60px;
-    line-height: 60px;
-    margin-right: 20px;
+    height: 6rem;
+    line-height: 6rem;
+    margin-right: 2rem;
 }
 
 .chattools-container li {
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 18px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
     color: #80868A;
     cursor: pointer;
 }
@@ -273,7 +277,7 @@ ul {
 
 .messages-container {
     background-color: #E3DAD2;
-    height: calc(100% - 120px);
+    height: calc(100% - 12rem);
     position: relative;
 }
 
@@ -295,18 +299,18 @@ ul {
     bottom: 0;
     width: 100%;
     height: auto;
-    padding: 30px 80px;
+    padding: 3rem 8rem;
     box-sizing: border-box;
 }
 
 .chat-messages p {
     display: block;
     color: #262626;
-    font-size: 14px;
-    padding: 7px;
-    border-radius: 7px;
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
     position: relative;
-    width: 375px;
+    width: 37.5rem;
 }
 
 .guest-message {
@@ -317,11 +321,11 @@ ul {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 17px solid transparent;
-    border-right: 17px solid #FFF;
+    border-bottom: 1.7rem solid transparent;
+    border-right: 1.7rem solid #FFF;
     position: absolute;
     top: 0;
-    left: -10px;
+    left: -1.0rem;
 }
 
 .user-message {
@@ -330,50 +334,50 @@ ul {
 }
 
 #user-message {
-    width: 210px;
+    width: 21rem;
 }
 
 .user-message:after {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 17px solid transparent;
-    border-left: 17px solid #DCF8C6;
+    border-bottom: 1.7rem solid transparent;
+    border-left: 1.7rem solid #DCF8C6;
     position: absolute;
     top: 0;
-    right: -10px;
+    right: -1rem;
 }
 
 /* send message */ 
 
 .sendmessage-container {
     background-color: #EFEFEF;
-    border-left: 1px solid #DDD;
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-left: 0.1rem solid #DDD;
+    height: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     position: relative;
 }
 
 .userinput {
     position: absolute;
-    top: 10px;
-    left: 60px;
+    top: 1rem;
+    left: 6rem;
     background-color: #FFF;
     border: none;
-    height: 40px;
-    border-radius: 20px;
-    padding-left: 20px;
-    font-size: 16px;
-    width: 815px;
+    height: 4rem;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    width: 81.5rem;
 }
 
 .sendmessage-container i {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #80868A;
     cursor: pointer;
-    height: 60px;
-    line-height: 60px;
+    height: 6rem;
+    line-height: 6rem;
 }
 
 .fa-microphone {
